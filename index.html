@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Car-Mash</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+     <!-- this is a site to choose the best car 
+     this is not only for supercars but mainly for cars that normal people drive my game has two pictures of cars the player has to select one of them when done so the picture of the car that has been choosen stays and the other pictures changes to the other car this goes on for 20 turns to see which is the best car, this also has a rating system in which the car is rated based on a base rating already stored and how many turns the player chooses the car and the car that does not get picked get its rating lowered by very small perecentage-->
+     <div class="background">
+          <div class="bg"></div>
+          <div class="bg bg2"></div>
+          <div class="bg bg3"></div>
+     </div>
+     <main>
+          <div class="cars">
+               <div class="car1-contanier">
+                    <div class="car-1-div ">
+                         <a id="car1">   <!-- this is the image -->
+                              <div class="image-car-1" id="car1ImageContainer">
+                                   <!-- img is dynamic  -->
+                              </div>
+                         </a>
+                         <div class="text-on-hover">
+                              <span>0-60 :<span id="0-60-1"> </span></span>
+                              <span>TS :<span id="TS-1"></span> </span>
+                              <span id="HP-1"></span>
+                         </div>
+                    </div>
+                    <div class="description">
+                         <div class="Name-car-1">
+                              <h1 id="name-1"></h1>
+                         </div>
+                         <div class="ranks-points">
+                              <span>Rank : <span id="rank-no-1"></span></span>
+                              <span>Point : <span id="point-no-1"></span></span>
+                         </div>
+                    </div>
+               </div>
+               <div class="car2-contanier">
+                    <div class="car-2-div">
+                         <a id="car2">
+                         <div class="image-car-2" id="car2ImageConatiner">
+
+                         </div>
+                         </a>
+                         <div class="text-on-hover">
+                              <span>0-60 :<span id="0-60-2"></span></span>
+                              <span>TS :<span id="TS-2"></span> </span>
+                              <span id="HP-2"></span>
+                         </div>
+                    </div>
+                    <div class="description">
+                         <div class="Name-car-2">
+                              <h1 id="name-2"></h1>
+                         </div>
+                         <div class="ranks-points">
+                              <span>Rank : <span id="rank-no-2"></span></span>
+                              <span>Point : <span id="point-no-2"></span></span>
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <div id="result"></div>
+     </main>
+     <script src="app.js"></script>
+     <script src="script.js"></script>
+</body>
+
+</html>
