@@ -1,5 +1,5 @@
-import "script"
-  zeroSixty1 = "3.2"
+// import "script"
+  zeroSixty1 = "3.2";
   zeroSixty2 = "1.2"
 
   TS1 = "230mph"
@@ -42,22 +42,22 @@ function insertCar2Image() {
   car2ImageContainer.appendChild(car2Image);
 }
 
+const nameResult = document.getElementById("0-60-1");
+nameResult.textContent = zeroSixty1;
+document.getElementById('0-60-2')  
 
-document.getElementById('0-60-1').innerHTML = zeroSixty1
-document.getElementById('0-60-2').innerHTML = zeroSixty2
 
+document.getElementById('TS-1')  
+document.getElementById('TS-2')  
 
-document.getElementById('TS-1').innerHTML = TS1
-document.getElementById('TS-2').innerHTML = TS2
+document.getElementById('HP-1')  
+document.getElementById('HP-2')  
 
-document.getElementById('HP-1').innerHTML = HP1
-document.getElementById('HP-2').innerHTML = HP2
+document.getElementById('Name-1')  
+document.getElementById('Name-2')  
 
-document.getElementById('Name-1').innerHTML = Name1
-document.getElementById('Name-2').innerHTML = Name2
-
-document.getElementById('rank-1').innerHTML = Rank1
-document.getElementById('rank-2').innerHTML = Rank2
+document.getElementById('rank-1')  
+document.getElementById('rank-2')  
 
 insertCar1Image();
 insertCar2Image();

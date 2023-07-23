@@ -1,8 +1,8 @@
 
 // rating
 const cars = [
-  { name: "Car A", base_rating: 8.0, times_selected: 0 },
-  { name: "Car B", base_rating: 8.5, times_selected: 0 },
+  { name: "Ferrari la ferrari", base_rating: 8.0, times_selected: 0 },
+  { name: "Ferrari Enzo", base_rating: 8.5, times_selected: 0 },
   // use csv
 ];
 
