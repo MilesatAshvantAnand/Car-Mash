@@ -63,7 +63,11 @@ main {
      z-index: 0;
      max-width: 100%;
      max-height: 100%;
-     scale:1
+     scale:1;
+}
+
+.img1 :hover{
+     scale: 1.5;
 }
 
 .car-1-div,.car-2-div{
@@ -79,11 +83,21 @@ main {
      display: flex;
 }
 span{
-     font-size: x-large;
+     font-size: large;
 }
 .car1-container{
      margin-right: 5vw !important;
 }
 .cars > div {
      margin: 0% 1%;
+}
+
+.text-on-hover{
+     text-align: center;
+     background-color: rgba(0, 0, 0, 0.157);
+     height: 25%;
+     padding-top:5%;
+}
+.text-on-hover > * {
+     margin: 0% 4%
 }

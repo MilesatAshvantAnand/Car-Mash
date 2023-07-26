@@ -1,18 +1,12 @@
-// import "script"
-  zeroSixty1 = "3.2";
-  zeroSixty2 = "1.2"
+ 
+zeroSixty1 = "3.2";
+zeroSixty2 = "1.2";
 
-  TS1 = "230mph"
-  TS2 = "270mph"
+TS1 = "230mph";
+TS2 = "270mph";
 
-  HP1 = "920hp"
-  HP2 = "890hp"
-
-  name1 = "ferrari la ferrari"
-  name2 = "ferrari enzo"
-
-  rank1 = "152"
-  rank2 = "122"
+HP1 = "920hp";
+HP2 = "890hp";
 
 
 linkCar1 =
@@ -22,14 +16,12 @@ linkCar2 =
   "https://ferrari-view.thron.com/api/xcontents/resources/delivery/getThumbnail/ferrari/1440x900/22e70458-58ae-4053-81af-6c2332da6851.jpg?v=131";
 
 
-// to be removed
-
 function insertCar1Image() {
   const car1ImageContainer = document.getElementById("car1ImageContainer");
   const car1Image = document.createElement("img");
   car1Image.src = linkCar1;
   car1Image.alt = "ferrari-la-ferrari";
-  car1Image.className = "img1"
+  car1Image.className = "img1";
   car1ImageContainer.appendChild(car1Image);
 }
 
@@ -38,28 +30,21 @@ function insertCar2Image() {
   const car2Image = document.createElement("img");
   car2Image.src = linkCar2;
   car2Image.alt = "ferrari-enzo";
-  car2Image.className = "img2"
+  car2Image.className = "img2";
   car2ImageContainer.appendChild(car2Image);
 }
 
-const nameResult = document.getElementById("0-60-1");
-nameResult.textContent = zeroSixty1;
-document.getElementById('0-60-2')  
-
-
-document.getElementById('TS-1')  
-document.getElementById('TS-2')  
-
-document.getElementById('HP-1')  
-document.getElementById('HP-2')  
-
-document.getElementById('Name-1')  
-document.getElementById('Name-2')  
-
-document.getElementById('rank-1')  
-document.getElementById('rank-2')  
-
+const zs1 = document.getElementById("0-60-1");
+zs1.textContent = zeroSixty1;
+const zs2 = document.getElementById("0-60-2");
+zs2.textContent = zeroSixty2;
+const ts1 = document.getElementById("TS-1");
+ts1.textContent = TS1;
+const ts2 = document.getElementById("TS-2");
+ts2.textContent = TS2;
+const hp1 = document.getElementById("HP-1");
+hp1.textContent = HP1;
+const hp2 = document.getElementById("HP-2");
+hp2.textContent = HP2;
 insertCar1Image();
 insertCar2Image();
-
-
